@@ -65,3 +65,8 @@ Create a field on Contact called “Dead”, checkbox, default off
 Assignment:
 If 70% or more of the Contacts on an Account are Dead, mark the need_intel field to TRUE
 ```
+```
+Q8) Enforce Single Primary Contact on Account - Primary_Contact__c custom field on the Contact
+//Acc1 - con1, con2p
+//Acc2 - con3, con4p
+```
