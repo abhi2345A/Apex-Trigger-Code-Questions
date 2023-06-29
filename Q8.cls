@@ -21,7 +21,7 @@ Trigger restrictToOnePrimaryContact on Contact(before insert, before update){
     
     for(Contact con : Trigger.New){
         
-        if(con.AccountId!=null && accIdWithPrimConSet.contains(con.AccountId)){
+        if(con.Primary_Contact__c && con.AccountId!=null && accIdWithPrimConSet.contains(con.AccountId)){
             con.addError('An Account can have maximum one primary Contact');
         }
     }
