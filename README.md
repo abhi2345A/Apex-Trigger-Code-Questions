@@ -70,3 +70,6 @@ Q8) Enforce Single Primary Contact on Account - Primary_Contact__c custom field 
 //Acc1 - con1, con2p
 //Acc2 - con3, con4p
 ```
+```
+Q9) Write a trigger on contact to prevent duplicate records based on Contact Email & Contact Phone.
+```
