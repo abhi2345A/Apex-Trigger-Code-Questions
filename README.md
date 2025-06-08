@@ -73,3 +73,7 @@ Q8) Enforce Single Primary Contact on Account - Primary_Contact__c custom field 
 ```
 Q9) Write a trigger on contact to prevent duplicate records based on Contact Email & Contact Phone.
 ```
+
+```
+Q10) Trigger to count the number of OpportunityLineItems associated with an opportunity and display the count on Account's custom field.
+```
